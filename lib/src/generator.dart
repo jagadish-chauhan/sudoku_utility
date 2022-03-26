@@ -4,7 +4,7 @@ import 'package:sudoku_utility/src/utils.dart';
 /// Provides the functionality of generating Sudoku puzzles.
 ///
 /// This class has to be instantiated for every new puzzle.
-/// 
+///
 class SudokuGenerator {
   /// Constructor to generate the Sudoku. Use the getter methods to retrieve
   /// the puzzle.

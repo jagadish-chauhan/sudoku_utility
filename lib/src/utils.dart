@@ -4,7 +4,7 @@ import 'package:sudoku_utility/src/exceptions.dart';
 /// classes or handling the Sudoku puzzles.
 ///
 /// Utility class which shouldn't be instantiated.
-/// 
+///
 class SudokuUtilities {
   /// Prints the [sudoku] in a readable format to the console.
   /// Zeroes are represented as `-`.
@@ -25,7 +25,7 @@ class SudokuUtilities {
   /// 4  -  2   6  7  5   8  -  3
   /// 5  6  8   3  -  -   -  2  7
   /// ```
-  /// 
+  ///
   static void printSudoku(List<List<int>> sudoku) {
     if (!isValidConfiguration(sudoku)) {
       throw InvalidSudokuConfigurationException();

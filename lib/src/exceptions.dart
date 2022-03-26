@@ -10,7 +10,7 @@
 /// * Solvability of the puzzle is not considered
 ///
 /// [SudokuUtilities.isValidConfiguration()] can be used to check for validity to prevent this Exception.
-/// 
+///
 /// Thrown an exception whenever the configuration of the Sudoku is not valid.
 ///
 class InvalidSudokuConfigurationException implements Exception {
