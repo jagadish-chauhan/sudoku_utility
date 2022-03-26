@@ -1,15 +1,10 @@
 name: sudoku_utility
-description: A new Flutter package project.
+description: A Dart and Flutter library containing tools related to Sudoku puzzles. It involves generating, solving and handling puzzles.
 version: 0.0.1
-homepage:
+homepage: https://github.com/jagadish-chauhan/sudoku_utility
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
-  flutter: ">=1.17.0"
-
-dependencies:
-  flutter:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:
