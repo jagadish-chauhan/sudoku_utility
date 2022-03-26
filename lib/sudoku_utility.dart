@@ -1,7 +1,7 @@
 library sudoku_utility;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// export all src dart files
+export 'src/exceptions.dart';
+export 'src/generator.dart';
+export 'src/solver.dart';
+export 'src/utils.dart';
