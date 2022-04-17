@@ -11,29 +11,29 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Dart and Flutter library containing tools related to Sudoku puzzles. It involves generating, solving and handling puzzles.
+
+<br />
+
+[![Latest_Release](https://img.shields.io/pub/v/sudoku_utility)](https://pub.dev/packages/sudoku_utility)  &nbsp; 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Generate Sudoku puzzles with your specified number of empty squares or clues.
+- Option to specify if the required Sudoku should have a unique solution.
+- Solve Sudoku puzzles of any difficulty instantly.
+- Check if the Sudoku puzzle (unsolved or solved) is valid in terms of game rules.
+- Check if the Sudoku puzzle has been solved properly.
+- Check if the unsolved Sudoku has a unique solution.
+- Convert the Data Structure of the Sudoku puzzle from a 2D List to 1D List and vice-versa.
+- Print Sudoku puzzles to the console in an easy-to-read manner.
+- Well documented client code.
 
-## Getting started
+## Contributing 
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Let's update Sudoku Utility, together.
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+- Fork sudoku_utility and checkout the dev branch
+- Add your own awesome logic to create new feature.
+- Create a pull request so everyone take benifit of new feature.
