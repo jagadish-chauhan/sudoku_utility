@@ -1,3 +1,7 @@
+## 0.0.6
+* Fix known issue and security patch
+## 0.0.5
+* Fix known issue and security patch
 ## 0.0.4
 * Added example
 ## 0.0.3
